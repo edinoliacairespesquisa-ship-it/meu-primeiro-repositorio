@@ -1,2 +1,1 @@
-# meu-primeiro-repositorio
-Aprendendo a uar o git
+# O trinamento leva a perfeição continue estudando
