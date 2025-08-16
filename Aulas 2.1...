@@ -1,0 +1,245 @@
+1. ásico
+    
+    1.1 🌎Alô mundo.
+    
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+    p{color: red;
+    text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    <h2>This is web page </h2>
+    <p>Hello World! </p>
+    <p>These paragraph styled with CSS. </p>
+    </body>
+    </html>
+    
+
+1.2🌎CSS internal style shieet
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p{
+color: red;
+text-align: center;
+}
+body {
+background-color: yellow;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p>This is CSS Internal Style Sheet. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.3🌎CSS online Style Sheet
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>This is web page </h2>
+<p style="color:red;text-align:center;">This is CSS Inline Style Sheet </p>
+<p style="color:blue;text-align:center;">These paragraphs are styled with CSS. </p>
+</body>
+</html>
+
+1.4🌎CSS External Style Sheet
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="file:///android_asset/mystyle.css">
+<style>
+h2{
+color: green;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p>This is CSS Multiple Style Sheet. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.5🌍CSS Multyple Style Sheet 
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="file:///android_asset/mystyle.css">
+<style>
+body {background-color: blue;}
+</style>
+</head>
+<body style="background-color: green">
+<h2>This is web page </h2>
+<p>This is CSS Cascading Order of Style Sheet. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.6🌎CSS Cascadin perder
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="file:///android_asset/mystyle.css">
+<style>
+body {background-color: blue;}
+</style>
+</head>
+<body style="background-color: green">
+<h2>This is web page </h2>
+<p>This is CSS Cascading Order of Style Sheet. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.7🌎CSS element selector 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p{
+color: green;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p>This is CSS Element Selector. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.8🌎SSS id sector
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#p1{
+color: green;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p id="p1">This is CSS ID Selector. </p>
+<p id="p1">These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.9🌎CSS Class selector
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.p1{
+color: green;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p class="p1">This is CSS Class Selector. </p>
+<p class="p1">These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.11🌎CSS Grouping selector
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2,p{
+color: green;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p>This is CSS Grouping Selector. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.10🌎CSS Universal selector 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+- {
+color: green;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p>This is CSS Universal Selector. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.12🌎CSS Sigle The line Comment
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This is a single-line comment */
+p{
+color: green;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p>This is CSS Single line Comment. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
+
+1.13🌎CSS multy line Commente
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* This is
+a m umulti-line
+comment */
+p{
+color: green;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<h2>This is web page </h2>
+<p>This is CSS Multi line Comment. </p>
+<p>These paragraph styled with CSS. </p>
+</body>
+</html>
